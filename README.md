@@ -1,2 +1,3 @@
-## Deploying datadog to your Python applicaiton on Railway
+## Deploying datadog to your applicaiton on Railway
 
+Example in Flask/Python
