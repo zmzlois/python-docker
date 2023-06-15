@@ -1,10 +1,8 @@
 version: '3'
 services:
   app:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    build: .
     ports:
-      - 3000:3000
+      - "8000:5000"
     volumes:
       - ./database.db:/app/database.db
